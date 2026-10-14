@@ -1,2 +1,31 @@
-# evolutionary-architecture-skill
-演进式架构分析与设计 Kimi 技能：大关注点先行、契约先行、防固化护栏。 | Evolutionary architecture analysis &amp; design skill: one big concern per iteration, contract-first, anti-anchoring guardrails.
+# Evolutionary Architecture Skill
+
+> 架构不是被建造出来的，是被演化出来的。
+
+一个 Kimi 技能（.skill）：演进式架构分析与设计方法论。
+
+## 核心方法
+
+**分析逻辑（怎么想）**
+- 大关注点先行，逐层累加 —— 每轮只解决一个结构性问题
+- 契约先行，实现靠后 —— 封装=换心，契约是配型标准
+- 分层定位 —— 编排者 / 执行器 / 环境供给者 / 裁决者 / 观测者
+- 确定性与智能混合分工 —— 智能弥散，责任收敛
+
+**执行逻辑（怎么干）**
+1. 定契约 → 2. 最小实现起步 → 3. 策略分级 → 4. 反馈闭环 → 5. 观测贯穿
+
+**防固化护栏（最重要）**
+- 锚定三问：对每个"最优解"追问问题本质、代价边界、替换条件
+- 失效条件登记：每个决策附重审触发器，汇总为 ADR
+- 警惕过早收敛与面面俱到
+
+## 安装
+
+在 Kimi 中安装本技能后，讨论架构设计、技术选型、系统演进等话题时会自动按此方法协作。
+
+技能源文件见 [SKILL.md](./SKILL.md)。发布版 `.skill` 安装包见 [Releases](../../releases)。
+
+## 版本
+
+- **v1.0.0** — 首个版本：分析逻辑、执行逻辑、防固化护栏、五段式输出格式、开场流程
